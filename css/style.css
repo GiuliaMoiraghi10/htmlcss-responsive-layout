@@ -45,7 +45,7 @@ ul, ol{
 /* DESKTOP FIRST */
 
 .container{
-    max-width: 1920px;
+    min-width: 992px;
     margin: 0 auto;
 }
 
@@ -73,3 +73,28 @@ ul, ol{
 }
 
 /* MEDIA QUERY */
+
+@media (max-width: 991.99px){
+    .container-nav{
+        max-width: 991.99px;
+    }
+
+    .row-title{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767.99px){
+    .container-nav{
+        max-width: 767.99px;
+    }
+
+    .row-title{
+        width: 100%;
+    }
+
+    .title-nav{
+        text-align: center;
+    }
+}
