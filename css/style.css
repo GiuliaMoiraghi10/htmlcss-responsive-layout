@@ -282,5 +282,16 @@ main{
 
     .tiramisu-img{
         padding-bottom: 20px;
+        width: 100%;
     }
+
+    .row-pres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
 }
