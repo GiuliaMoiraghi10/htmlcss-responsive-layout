@@ -29,6 +29,10 @@ ul, ol{
     list-style: none;
 }
 
+button{
+    border-style: none;
+}
+
 :root{
     --brand-color: #7C69A4;
     --title-color: #FF9614;
@@ -150,10 +154,33 @@ main{
 .social-btn{
     font-size: 17px;
     font-weight: 500;
+    width: 250px;
+    text-align: center;
 }
 
 .container-md-pubb{
     padding-top: 30px;
+}
+
+.presentation-title{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.presentation-title{
+    padding-bottom: 55px;
+}
+
+.tiramisu-img{
+    max-width: 376px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+
+.tiramisu-txt{
+    font-size: 20px;
+    line-height: 40px;
 }
 
 /* MEDIA QUERY */
@@ -251,5 +278,9 @@ main{
 
     .pubblicita{
         display: none;
+    }
+
+    .tiramisu-img{
+        padding-bottom: 20px;
     }
 }
