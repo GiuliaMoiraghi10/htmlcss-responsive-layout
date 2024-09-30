@@ -192,15 +192,21 @@ main{
 }
 
 .row-info{
+    padding: 20px;
+}
+
+.footer-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    gap: 20px;
 }
 
-.col-50{
-    width: 50%;
+.info-link{
+    background-color: var(--brand-color);
+    color: white;
+    padding: 20px;
 }
-
 
 /* MEDIA QUERY */
 
