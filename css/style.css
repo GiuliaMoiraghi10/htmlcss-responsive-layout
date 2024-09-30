@@ -106,12 +106,12 @@ main{
     line-height: 30px;
 }
 
-.col-100-title1{
+.col-100-title-sm{
     margin-bottom: 20px;
     color: #A599A5;
 }
 
-.col-100-title2{
+.col-100-title-bg{
     margin-bottom: 40px;
     color: #4E3969;
     font-size: 54px;
@@ -124,17 +124,23 @@ main{
 
 /* SOCIAL */
 
-.row-social{
+/* .row-social{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-}
+} */
 
 .col-1_5{
     width: calc(100% / 5);
+}
+
+.col-1_5 > *{
     padding: 12px 65px;
     background-color: white;
     border-radius: 999px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container-md-social{
@@ -192,6 +198,7 @@ main{
     .col-33{
         width: calc(100% / 3);
     }
+
 }
 
 @media (max-width: 767.99px){
