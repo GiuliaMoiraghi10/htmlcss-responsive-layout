@@ -173,6 +173,7 @@ main{
 }
 
 @media (max-width: 767.99px){
+
     .container-nav{
         max-width: 767.99px;
     }
@@ -183,5 +184,35 @@ main{
 
     .title-nav{
         text-align: center;
+    }
+
+    .container-md{
+        max-width: 614px;
+        padding: 30px;
+    }
+
+    .col-100-title2{
+        font-size: 30px;
+    }
+
+    span{
+        display: none;
+    }
+
+    .col-100-title1{
+        margin-bottom: 20px;
+    }
+
+    .col-100-title2{
+        margin-bottom: 20px;
+    }
+
+    .col-33{
+        width: 100%;
+        row-gap: 20px;
+    }
+
+    li{
+        margin-bottom: 20px;
     }
 }
