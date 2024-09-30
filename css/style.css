@@ -20,7 +20,56 @@ img{
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+:root{
+    --brand-color: #7C69A4;
+    --title-color: #FF9614;
+    --main-background: #F6F5F3;
+}
+
+/* DEBUG */
+
+.debug{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+/* DESKTOP FIRST */
+
 .container{
     max-width: 1920px;
     margin: 0 auto;
 }
+
+.container-md{
+    max-width: 1470px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-title{
+    padding: 30px;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.title-nav{
+    color: var(--title-color);
+    font-size: 60px;
+}
+
+/* MEDIA QUERY */
