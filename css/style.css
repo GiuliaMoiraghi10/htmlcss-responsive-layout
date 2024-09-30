@@ -7,3 +7,20 @@ header{
 main, footer{
     font-family: "Montserrat", sans-serif;
 }
+
+/* DEFAULT */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
