@@ -183,6 +183,25 @@ main{
     line-height: 40px;
 }
 
+
+/* FOOTER */
+
+.footer-navbar{
+    background-color: var(--brand-color);
+    color: white;
+}
+
+.row-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-50{
+    width: 50%;
+}
+
+
 /* MEDIA QUERY */
 
 @media (max-width: 991.99px){
@@ -290,8 +309,5 @@ main{
         justify-content: center;
         align-items: center;
     }
-
-
-
 
 }
