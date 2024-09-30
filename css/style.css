@@ -144,12 +144,16 @@ main{
 }
 
 .container-md-social{
-    padding: 0 20px 0 20px;
+    padding-top: 30px;
 }
 
 .social-btn{
     font-size: 17px;
     font-weight: 500;
+}
+
+.container-md-pubb{
+    padding-top: 30px;
 }
 
 /* MEDIA QUERY */
@@ -243,5 +247,9 @@ main{
 
     li{
         margin-bottom: 20px;
+    }
+
+    .pubblicita{
+        display: none;
     }
 }
